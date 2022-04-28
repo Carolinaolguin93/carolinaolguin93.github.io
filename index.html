@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js" defer></script>
+    <title>Encriptador</title>
+</head>
+<body> 
+    <main>        <div class="primer-div">
+        <img src="img/icono.png" alt="Icono de Alura" class="icono">
+
+        <textarea name="textarea" class="texto" id="texto" rows="10" cols="50" placeholder="Ingrese su texto aquí ..."></textarea>
+        <span class="observacion"><img src="img/alerta.png" alt="">Solo letras minúsculas y sin acentos.</span>
+
+        <div class="botones">
+        <input type="button" value="Encriptar" id="encriptar" class="btn1 btns">
+        <input type="button" value="Desencriptar" id="desencriptar" class="btn2 btns">
+        </div>
+    </div>
+    <div class="segundo-div" id="segundoDiv">
+    <div class="contenedor-resultado" id="contenedorResultado">
+        <img id="imgSegundoDiv" src="img/consultar.png" >
+        <h3 id="h3SegundoDiv">Ningún mensaje fue encontrado</h3>
+        <p id="pSegundoDiv">Ingresa el texto que quieres encriptar o desencriptar!</p>
+    </div>
+    <div class="contenedor-resultado" id="resultadoOculto">
+        <h1 class="h1encriptado">{ Texto Encriptado }</h1>
+        <p class="textoEncriptado" id="textoEncriptado">prueba</p>
+        <input type="button" class="btn" id="copiar" value="Copiar">
+    </div>
+</div>
+</main>
+
+    <footer>
+    <p>© Copyright 2022 - { Carolina Olguin desarrolladora web }</p>
+    </footer>
+</body>
+</html>
